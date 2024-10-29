@@ -1,0 +1,63 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img class="logo" src="assets/images/logo.svg" alt="" />
+      <div class="calculator">
+        <div class="user-inputs">
+          <div class="input-box">
+            <label class="label" for="bill">Bill</label>
+            <div class="user-input">
+              <input type="number" id="bill" placeholder="0" />
+              <img src="assets/images/icon-dollar.svg" alt="" />
+            </div>
+          </div>
+          <div class="tip-btns-main">
+            <label for="tip">Select Tip %</label> <br />
+            <div class="tip-buttons">
+              <button class="tip-btn" tip-value="5">5%</button>
+              <button class="tip-btn" tip-value="10">10%</button>
+              <button class="tip-btn" tip-value="15">15%</button>
+              <button class="tip-btn" class="active" tip-value="25">25%</button>
+              <button class="tip-btn" tip-value="50">50%</button>
+              <button>
+                <input type="number" id="customTip" placeholder="Custom" class="custom-tip" />
+              </button>
+            </div>
+          </div>
+          <div class="input-box">
+            <label class="label" for="number of people">Number of People</label>
+            <div class="user-input">
+              <input type="number" id="people" placeholder="0" />
+              <img src="assets/images/icon-person.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="results">
+          <div class="result">
+            <div class="result-info">
+              <p>Tip Amount</p>
+              <span>/ person</span>
+            </div>
+            <h1 class="amount" id="tip-amount">$0</h1>
+          </div>
+          <div class="result">
+            <div class="result-info">
+              <p>Total</p>
+              <span>/ person</span>
+            </div>
+            <h1 class="amount" id="total-amount">$0</h1>
+          </div>
+          <button id="resetBtn">reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
