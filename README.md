@@ -56,11 +56,11 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/tip-calculator-app.git
+   git clone https://github.com/khalidrahmanhanify/Tip-Calculator
    ```
 2. Navigate to the project folder:
 ```bash
-cd tip-calculator-app
+cd Tip-Calculator
 ```
 3. Open `index.html` in your preferred browser to view the app.
 
